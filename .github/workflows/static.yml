@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Ramesh Koira Film Cameraman</title> 
+  <link> 
+  <link rel="stylesheet" type="text/css" href="1css.css"> 
+ </head> 
+ <body> 
+  <h1>Ramesh Koira Film Cameraman</h1> 
+  <p>Welcome You to My Website!</p> 
+  <p>Cinematic Storytelling through the Lens<br> In the realm of visual storytelling, a skilled cameraman holds the power to captivate audiences and evoke emotions through the lens of their camera. This niche celebrates the artistry and technical prowess of the modern-day cinematographer, offering a glimpse into the world of cinematic magic.<br> <br> Key Features:<br> <br> 1. Visual Symphony: Delve into the mastery of framing, composition, and lighting to orchestrate a visual symphony that brings stories to life. Explore the nuances of camera movements, from subtle pans to dynamic tracking shots, to create a seamless and immersive viewing experience.<br> <br> 2. Emotional Impact: Understand the profound impact that visual elements can have on storytelling. Learn how to harness the interplay of light and shadow, color grading, and visual symbolism to convey mood, atmosphere, and character emotions.<br> <br> 3. Technical Wizardry: Dive into the technical intricacies of camera equipment, from state-of-the-art digital cameras to classic film setups. Explore techniques such as depth of field manipulation, focus pulling, and lens selection to achieve the desired aesthetic and narrative effect.<br> <br> 4. Adaptability and Innovation: Embrace the ever-evolving landscape of filmmaking technology and techniques. Experiment with emerging trends such as drone cinematography, virtual reality, and augmented reality to push the boundaries of visual storytelling.<br> <br> 5. Collaborative Spirit: Recognize the collaborative nature of filmmaking and the integral role of the cameraman within the larger creative team. Cultivate effective communication skills and a collaborative mindset to work seamlessly alongside directors, producers, and fellow crew members.<br> <br> Why It Matters:<br> <br> In an era saturated with content, the art of cinematic storytelling stands as a beacon of creativity and cultural significance. Through the lens of a skilled cameraman, ordinary moments are transformed into extraordinary visual narratives, fostering empathy, understanding, and connection across diverse audiences. <br> <br> Embark on a journey into the heart of cinematic storytelling, where every frame is a brushstroke on the canvas of human experience. Whether capturing sweeping landscapes, intimate moments, or adrenaline-fueled action sequences, the cameraman is both an artist and a technician, shaping the stories that define our collective imagination.<br> <br> This niche highlights the artistry, technical expertise, and collaborative spirit inherent in the craft of camerawork, inviting enthusiasts to explore the multifaceted world of visual storytelling.<br> <br> I with my 25 years of cinematic experience shall delve in cinematography</p> 
+  <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    // Get the welcome message paragraph
+    const welcomeMessage = document.querySelector("p");
+
+    // Add a click event listener to the welcome message paragraph
+    welcomeMessage.addEventListener("click", function() {
+        // Toggle a class to change the font color on click
+        this.classList.toggle("clicked");
+    });
+
+    // Add a hover effect to the h1 element
+    const h1 = document.querySelector("h1");
+    h1.addEventListener("mouseenter", function() {
+        // Change the font color on hover
+        this.style.color = "blue";
+    });
+    h1.addEventListener("mouseleave", function() {
+        // Restore the font color when mouse leaves
+        this.style.color = "black";
+    });
+})
+        </script> 
+  <form id="uploadForm" enctype="multipart/form-data"> 
+   <input type="file" name="imageFile" id="imageFile"> <button type="submit">Upload Image</button> 
+  </form> <a href="/path/to/Ramesh2.php">Absolute Path Link</a> 
+ </body>
+</html>
