@@ -1,0 +1,24 @@
+/* Target the h1 element */
+h1 {
+    /* Set the text color to blue */
+    color: black;
+    /* Add some padding */
+    padding: 20px;
+    /* Center align the text */
+    text-align: center;
+}
+
+/* Target the p element */
+p {
+    /* Set the font size to 16 pixels */
+    font-size: 16px;
+    /* Set the text color to green */
+    color: orange;
+    /* Add some margin */
+    margin: 10px;
+}
+
+
+#doneButton:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
